@@ -1,0 +1,58 @@
+@use './main.scss' as *;
+$icon-background-color: #fff;
+$skillbar-background-color: #777;
+$skillbar-color: #fff;
+$skill-color: #000;
+$skill_name-font-size: $font-size + 0.25;
+
+
+/* MOBILE */
+    @media (max-width: $mobile-width) {
+        /* Código para dispositivos móviles */
+        .skill{
+            display: grid;
+            grid-template-columns: 1fr 5fr;
+            column-gap: 1rem;
+            align-items: center;
+        }
+        .skill:not(:last-child){
+            margin-bottom: 1.5rem !important;
+        }
+        .skill_image{
+            background-color: $icon-background-color;
+            border-radius: .5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .skill_image > img{
+            max-width: 100%;
+        }
+
+        .skill_name{
+            font-size: $skill_name-font-size;
+            margin-bottom: .25rem;
+        }
+        .skill_percent-container{
+            width: 100%;
+            background-color: $skillbar-background-color;
+            border-radius: 1.5rem;
+        }
+        .skill_percent{
+            background-color: $skillbar-color;
+            color: $skill-color;
+            text-align: right;
+            padding-right: .5rem;
+            border-radius: 1.5rem;
+        }
+    }
+
+/* TABLET */
+    @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+        /* Código para tablets */
+    }
+
+/* DESKTOP */
+    @media (min-width: $desktop-width) {
+        /* Código para escritorio */
+    }
