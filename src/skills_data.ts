@@ -4,7 +4,7 @@ import { readFileSync } from 'fs';
 const skillService = new SkillService();
 const skills = skillService.getSkills();
 
-function getHTMLlayout(url:string) {
+function getHTMLlayout(url: string) {
   try {
     const response = readFileSync(url,"utf-8");
     return response;
@@ -26,11 +26,6 @@ function genSkillsHTML() {
     let newHtml = updElement(skillLayoutHTML, "skill_name", skill.name);
     console.log(newHtml);
   });
-
-  /* const skillsContainer = document.getElementById('skills');
-  if (skillsContainer) {
-    skillsHTML.forEach(skill => skillsContainer.appendChild(skill));
-  } else {
-    console.error("No se encontró el contenedor con el ID 'skills container'");
-  } */
 }
+
+genSkillsHTML();

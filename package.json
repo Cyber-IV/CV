@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc --watch"
+    "start": "tsc --watch",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/Cyber-IV/CV#readme",
   "devDependencies": {
-    "@types/node": "^22.13.10"
+    "@types/node": "^22.13.10",
+    "rollup": "^4.36.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.8.2"
   }
 }
