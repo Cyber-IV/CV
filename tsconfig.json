@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
-      "outDir": "dest",
-      "module": "ES6",
+      "outDir": "dist",
+      "module": "CommonJS",
       "target": "ES6",
       "moduleResolution": "node",
       "esModuleInterop": true,
       "skipLibCheck": true,
+      "sourceMap": true
     },
     "include": [
       "src/**/*"
