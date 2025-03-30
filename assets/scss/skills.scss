@@ -12,14 +12,14 @@ $skill_percent-font-size: $font-size - 0.25;
     column-gap: 1rem;
     align-items: center;
 }
-.skill_image{
+.skill_image-container{
     background-color: $icon-background-color;
     border-radius: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.skill_image > img{
+.skill_image{
     max-width: 100%;
 }
 

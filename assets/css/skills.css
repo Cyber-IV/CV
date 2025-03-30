@@ -19,7 +19,7 @@ ul {
   align-items: center;
 }
 
-.skill_image {
+.skill_image-container {
   background-color: #fff;
   border-radius: 0.5rem;
   display: flex;
@@ -27,7 +27,7 @@ ul {
   align-items: center;
 }
 
-.skill_image > img {
+.skill_image {
   max-width: 100%;
 }
 
