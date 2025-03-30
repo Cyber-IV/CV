@@ -1,0 +1,129 @@
+@use './vars.scss' as *;
+
+
+.experience_item {
+    padding: 0.6rem;
+}
+  
+.experience_header {
+    margin-bottom: .75rem;
+    border-bottom: .1rem solid #ddd;
+    padding-bottom: .5rem;
+}
+  
+.experience_position {
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+  
+.experience_company {
+    margin: 0;
+    color: #444;
+}
+  
+.experience_dates {
+    color: #444;
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+}
+  
+.experience_responsibilities {
+    margin-top: 0.75rem;
+}
+  
+.responsibilities_list {
+    padding-left: 1.25rem;
+    list-style: none;
+  
+    .responsibility_item {
+        position: relative;
+        padding-left: 1.25rem;
+        margin-bottom: 0.5rem;
+  
+        &:before {
+            content: '*'; /* Cambia esto por un ícono si lo prefieres */
+            position: absolute;
+            left: 0;
+            color: #555;
+        }
+    }
+}
+
+/* MOBILE */
+@media (max-width: $mobile-width) {
+    /* Código para dispositivos móviles */
+    $font-size-experience-position: 1rem;
+    $font-size-experience-company: 0.9rem;
+    $font-size-experience-dates: 0.8rem;
+    $font-size-responsibility-item: 0.85rem;
+    $font-size-responsibility-icon: 1rem;
+
+    .experience_position {
+        font-size: $font-size-experience-position;
+    }
+    .experience_company {
+        font-size: $font-size-experience-company;
+    }
+    .experience_dates {
+        font-size: $font-size-experience-dates;
+    }
+    .responsibility_item {
+        font-size: $font-size-responsibility-item;
+    }
+    .responsibility_icon {
+        font-size: $font-size-responsibility-icon;
+    }
+}
+
+/* TABLET */
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+    /* Código para tablets */
+    $font-size-experience-position: 1.1rem;
+    $font-size-experience-company: 1rem;
+    $font-size-experience-dates: 0.85rem;
+    $font-size-responsibility-item: 0.9rem;
+    $font-size-responsibility-icon: 1.1rem;
+
+    .experience_position {
+        font-size: $font-size-experience-position;
+    }
+    .experience_company {
+        font-size: $font-size-experience-company;
+    }
+    .experience_dates {
+        font-size: $font-size-experience-dates;
+    }
+    .responsibility_item {
+        font-size: $font-size-responsibility-item;
+    }
+    .responsibility_icon {
+        font-size: $font-size-responsibility-icon;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: $desktop-width) {
+    /* Código para escritorio */
+    $font-size-experience-position: 1.2rem; 
+    $font-size-experience-company: 1.1rem;
+    $font-size-experience-dates: 0.9rem;
+    $font-size-responsibility-item: 0.95rem;
+    $font-size-responsibility-icon: 1.2rem;
+
+    .experience_position {
+        font-size: $font-size-experience-position;
+    }
+    .experience_company {
+        font-size: $font-size-experience-company;
+    }
+    .experience_dates {
+        font-size: $font-size-experience-dates;
+    }
+    .responsibility_item {
+        font-size: $font-size-responsibility-item;
+    }
+    .responsibility_icon {
+        font-size: $font-size-responsibility-icon;
+    }
+}
