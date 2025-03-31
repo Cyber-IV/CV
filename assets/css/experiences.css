@@ -9,14 +9,13 @@
   padding-bottom: 0.5rem;
 }
 
-.experience_position {
+.experience_title {
   font-weight: bold;
   margin: 0;
   color: #000;
 }
 
-.experience_company {
-  margin: 0;
+.experience_company, .experience_location {
   color: #444;
 }
 
@@ -52,7 +51,7 @@
   .experience_position {
     font-size: 1rem;
   }
-  .experience_company {
+  .experience_company, .experience_location {
     font-size: 0.9rem;
   }
   .experience_dates {
@@ -71,7 +70,7 @@
   .experience_position {
     font-size: 1.1rem;
   }
-  .experience_company {
+  .experience_company, .experience_location {
     font-size: 1rem;
   }
   .experience_dates {
@@ -90,7 +89,7 @@
   .experience_position {
     font-size: 1.2rem;
   }
-  .experience_company {
+  .experience_company, .experience_location {
     font-size: 1.1rem;
   }
   .experience_dates {
