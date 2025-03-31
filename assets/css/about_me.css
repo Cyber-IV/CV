@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.about_me > div > .list > li > p {
+  color: #555;
+  font-weight: 700;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  /* Código para dispositivos móviles */
+  .about_me {
+    padding: 2.5rem;
+    text-align: center;
+  }
+  .about_me > div:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+  .about_me > div > .title {
+    font-size: 2rem;
+  }
+  .about_me > div > .list > li > h4 {
+    font-size: 1.2rem;
+  }
+  .about_me > div > .list > li > p {
+    font-size: 1rem;
+  }
+}
+/* TABLET */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Código para tablets */
+  .about_me {
+    padding: 4rem 2rem;
+  }
+  .about_me > div:not(:last-child) {
+    margin-bottom: 1.75rem;
+  }
+  .about_me > div > .title {
+    font-size: 1.5rem;
+  }
+  .about_me > div > .list > li > h4 {
+    font-size: 1.1rem;
+  }
+  .about_me > div > .list > li > p {
+    font-size: 0.9rem;
+  }
+}
+/* DESKTOP */
+@media (min-width: 769px) {
+  /* Código para escritorio */
+  .about_me {
+    padding: 4rem 2.5rem;
+  }
+  .about_me > div:not(:last-child) {
+    margin-bottom: 1.75rem;
+  }
+  .about_me > div > .title {
+    font-size: 2rem;
+  }
+  .about_me > div > .list > li > h4 {
+    font-size: 1.125rem;
+  }
+  .about_me > div > p, li, .about_me > div > .list > li > p {
+    font-size: 1.125rem;
+  }
+}
+
+/*# sourceMappingURL=about_me.css.map */

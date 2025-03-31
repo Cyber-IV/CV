@@ -1,0 +1,30 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Curriculum vitae (03/2025)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyber-IV/CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyber-IV/CV/issues"
+  },
+  "homepage": "https://github.com/Cyber-IV/CV#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "rollup": "^4.36.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "jsdom": "^26.0.0"
+  }
+}

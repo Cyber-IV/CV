@@ -1,0 +1,88 @@
+@use "main.scss" as *;
+
+$main_background-color: #000937;
+$main_font-color: #fff;
+$main_titles-font-size: $font-size * 1.5;
+
+$mi_padding: 1.5rem;
+
+.main_info, .main_info a{
+    display: block;
+    background-color: $main_background-color;
+    color: $main_font-color;
+}
+
+/* MOBILE */
+    @media (max-width: $mobile-width) {
+        /* Código para dispositivos móviles */
+        .main_info{
+            padding: $mi_padding + 0.5;
+            text-align: center;
+        }
+        .main_info > div:not(:last-child){
+            margin-bottom: 2.75rem;
+        }
+        .main_info > div > *:not(:last-child){
+            margin-bottom: .25rem;
+        }
+        .main_info > div > .title{
+            font-size: $main_titles-font-size;
+        }
+
+        .my_name{
+            font-size: $font-size * 2.5;
+        }
+        .my_job{
+            font-size: $font-size * 1.75;
+        }
+    }
+
+/* TABLET */
+    @media (min-width: $tablet-min-width) and (max-width:$tablet-max-width) {
+        /* Código para tablets */
+        .main_info{
+            padding: $mi_padding * 2 $mi_padding + 0.5;
+        }
+
+        .main_info > div:not(:last-child){
+            margin-bottom: 2.25rem;
+        }
+        .main_info > div > *:not(:last-child){
+            margin-bottom: .25rem;
+        }
+        .main_info > div > .title{
+            font-size: $main_titles-font-size - 0.25;
+        }
+
+        .my_name{
+            font-size: $font-size * 2;
+        }
+        .my_job{
+            font-size: $font-size * 1.25;
+        }
+    }
+
+/* DESKTOP */
+    @media (min-width: $desktop-width) {
+        /* Código para escritorio */
+        .main_info{
+            padding: $mi_padding*2;
+        }
+
+                .main_info > div:not(:last-child){
+            margin-bottom: 2.25rem;
+        }
+        .main_info > div > *:not(:last-child){
+            margin-bottom: .25rem;
+        }
+        .main_info > div > .title{
+            font-size: $main_titles-font-size - 0.25;
+        }
+
+        .my_name{
+            font-size: $font-size * 2;
+        }
+        .my_job{
+            font-size: $font-size * 1.25;
+        }
+    }
