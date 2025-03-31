@@ -41,4 +41,10 @@ class ExperienceService {
             ],
         },
     ];
+
+    public getExperiences(): Experience[] {
+        return this.experiences;
+    }
 }
+
+export default ExperienceService;

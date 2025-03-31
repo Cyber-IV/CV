@@ -41,6 +41,9 @@ class ExperienceService {
             },
         ];
     }
+    getExperiences() {
+        return this.experiences;
+    }
 }
-export {};
+export default ExperienceService;
 //# sourceMappingURL=experienceService.js.map
