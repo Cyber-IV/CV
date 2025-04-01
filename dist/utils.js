@@ -11,4 +11,8 @@ export async function getHTMLlayout(url) {
         return null;
     }
 }
+function isMobileDevice() {
+    return /Mobile|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 'mobile' : 'desktop';
+}
+export const deviceType = isMobileDevice();
 //# sourceMappingURL=utils.js.map
