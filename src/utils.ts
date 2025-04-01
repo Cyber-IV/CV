@@ -10,3 +10,9 @@ export async function getHTMLlayout(url: string): Promise<string | null> {
       return null;
     }
 }
+
+function isMobileDevice(): 'mobile' | 'desktop' {
+  return /Mobile|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ? 'mobile' : 'desktop';
+}
+
+export const deviceType = isMobileDevice();
