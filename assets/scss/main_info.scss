@@ -12,6 +12,10 @@ $mi_padding: 1.5rem;
     color: $main_font-color;
 }
 
+.details i, .socials i {
+    color: #3498db;
+}
+
 /* MOBILE */
     @media (max-width: $mobile-width) {
         /* Código para dispositivos móviles */
@@ -34,6 +38,15 @@ $mi_padding: 1.5rem;
         }
         .my_job{
             font-size: $font-size * 1.75;
+        }
+
+        .details p, .socials p {
+            margin: 0.25rem 0;
+            font-size: 0.875rem;
+        }
+    
+        .details i, .socials i {
+            margin-right: 0.375rem;
         }
     }
 
@@ -60,6 +73,15 @@ $mi_padding: 1.5rem;
         .my_job{
             font-size: $font-size * 1.25;
         }
+
+        .details p, .socials p {
+            margin: 0.3125rem 0;
+            font-size: 0.9375rem;
+        }
+    
+        .details i, .socials i {
+            margin-right: 0.4375rem;
+        }
     }
 
 /* DESKTOP */
@@ -69,7 +91,7 @@ $mi_padding: 1.5rem;
             padding: $mi_padding*2;
         }
 
-                .main_info > div:not(:last-child){
+        .main_info > div:not(:last-child){
             margin-bottom: 2.25rem;
         }
         .main_info > div > *:not(:last-child){
@@ -84,5 +106,14 @@ $mi_padding: 1.5rem;
         }
         .my_job{
             font-size: $font-size * 1.25;
+        }
+
+        .details p, .socials p {
+            margin: 0.375rem 0; // 6px → 0.375rem
+            font-size: 1rem; // Mantiene el tamaño base (16px)
+        }
+    
+        .details i, .socials i {
+            margin-right: 0.5rem; // 8px → 0.5rem
         }
     }
