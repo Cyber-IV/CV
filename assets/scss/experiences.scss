@@ -54,7 +54,7 @@
 @media (max-width: $mobile-width) {
     /* Código para dispositivos móviles */
     $font-size-experience-position: 1rem;
-    $font-size-experience-company: 0.9rem;
+    $font-size-experience-company: 0.8rem;
     $font-size-experience-dates: 0.8rem;
     $font-size-responsibility-item: 0.85rem;
     $font-size-responsibility-icon: 1rem;
@@ -80,7 +80,7 @@
 @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
     /* Código para tablets */
     $font-size-experience-position: 1.1rem;
-    $font-size-experience-company: 1rem;
+    $font-size-experience-company: .9rem;
     $font-size-experience-dates: 0.85rem;
     $font-size-responsibility-item: 0.9rem;
     $font-size-responsibility-icon: 1.1rem;
@@ -106,7 +106,7 @@
 @media (min-width: $desktop-width) {
     /* Código para escritorio */
     $font-size-experience-position: 1.2rem; 
-    $font-size-experience-company: 1.1rem;
+    $font-size-experience-company: 1rem;
     $font-size-experience-dates: 0.9rem;
     $font-size-responsibility-item: 0.95rem;
     $font-size-responsibility-icon: 1.2rem;
