@@ -1,6 +1,6 @@
 @use './main.scss' as *;
 
-body{
+.cv_layout{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
@@ -8,7 +8,7 @@ body{
 /* MOBILE */
     @media (max-width: $mobile-width) {
         /* Código para dispositivos móviles */
-        body{
+        .cv_layout{
             grid-template-columns: 1fr;
         }
     }
@@ -21,7 +21,7 @@ body{
 /* DESKTOP */
     @media (min-width: $desktop-width) {
         /* Código para escritorio */
-        body{
+        .cv_layout{
             padding: 6% 15%;
         }
     }
