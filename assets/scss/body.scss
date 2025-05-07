@@ -16,6 +16,9 @@
 /* TABLET */
     @media (min-width: $tablet-min-width) and (max-width:$tablet-max-width) {
         /* Código para tablets */
+        .cv_layout {
+            padding: 4% 10%; /* Ajuste reducido para tablets */
+        }
     }
 
 /* DESKTOP */
