@@ -21,9 +21,9 @@
 </head>
 <body>
     <div id="action-buttons">
-        <button class="icon-btn" data-tippy-content="Descargar PDF" onclick="downloadPDF()">📄PDF</button>
-        <button class="icon-btn" data-tippy-content="Traducir a Español" onclick="setLanguage('es')">ES</button>
-        <button class="icon-btn" data-tippy-content="Translate to English" onclick="setLanguage('en')">EN</button>
+        <button type="button" class="icon-btn" data-tippy-content="Descargar PDF" aria-label="Descargar PDF" onclick="downloadPDF()">📄PDF</button>
+        <button type="button" class="icon-btn" data-tippy-content="Traducir a Español" aria-label="Traducir a Español" onclick="setLanguage('es')">ES</button>
+        <button type="button" class="icon-btn" data-tippy-content="Translate to English" aria-label="Translate to English" onclick="setLanguage('en')">EN</button>
     </div>      
       
     <div class="cv_layout">
@@ -100,5 +100,11 @@
     <script type="module" src="dist/experiences_data.js"></script>
     <script src="dist/contact_email.js" defer></script>
     <script type="module" src="dist/contact_phone.js" defer></script>
+    <script>
+        tippy('.icon-btn', {
+            theme: 'light',
+            placement: 'top',
+        });
+    </script>
 </body>
 </html>
