@@ -22,10 +22,10 @@ async function genExperiencesHTML() {
         expElement = expHTML.querySelector('.experience_location');
         if (expElement) expElement.textContent = experience.location;
         expElement = expHTML.querySelector('.experience_date-start');
-        let dateStart = experience.startDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long' });
+        let dateStart = experience.startDate.toLocaleDateString('es', { year: 'numeric', month: 'long' });
         if (expElement) expElement.textContent = dateStart;
         expElement = expHTML.querySelector('.experience_date-end');
-        let dateEnd = experience.endDate.toLocaleDateString('es-MX', { year: 'numeric', month: 'long' });
+        let dateEnd = experience.endDate.toLocaleDateString('es', { year: 'numeric', month: 'long' });
         if (expElement) expElement.textContent = dateEnd;
         expElement = expHTML.querySelector('.responsibilities_list');
         if (expElement) {

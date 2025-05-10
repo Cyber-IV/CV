@@ -1,6 +1,6 @@
 @use './main.scss' as *;
 
-body{
+.cv_layout{
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
@@ -8,7 +8,7 @@ body{
 /* MOBILE */
     @media (max-width: $mobile-width) {
         /* Código para dispositivos móviles */
-        body{
+        .cv_layout{
             grid-template-columns: 1fr;
         }
     }
@@ -16,12 +16,15 @@ body{
 /* TABLET */
     @media (min-width: $tablet-min-width) and (max-width:$tablet-max-width) {
         /* Código para tablets */
+        .cv_layout {
+            padding: 4% 10%; /* Ajuste reducido para tablets */
+        }
     }
 
 /* DESKTOP */
     @media (min-width: $desktop-width) {
         /* Código para escritorio */
-        body{
+        .cv_layout{
             padding: 6% 15%;
         }
     }
