@@ -11,20 +11,20 @@
     @media (max-width: $mobile-width) {
         /* Código para dispositivos móviles */
         .about_me{
-            padding: 2.5rem;
+            padding: 2rem;
             text-align: center;
         }
         .about_me > div:not(:last-child){
-            margin-bottom: 2.5rem;
+            margin-bottom: 1.5rem;
         }
         .about_me > div > .title{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
         .about_me > div > .list > li > h4{
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
         .about_me > div > .list > li > p{
-            font-size: 1rem;
+            font-size: .85rem;
         }
     }
 
@@ -32,19 +32,19 @@
     @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
         /* Código para tablets */
         .about_me{
-            padding: 4rem 2rem;
+            padding: 1.5rem;
         }
         .about_me > div:not(:last-child){
-            margin-bottom: 1.75rem;
+            margin-bottom: 1.25rem;
         }
         .about_me > div > .title{
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
         .about_me > div > .list > li > h4{
-            font-size: 1.1rem;
+            font-size: 11rem;
         }
         .about_me > div > .list > li > p{
-            font-size: .9rem;
+            font-size: .85rem;
         }
     }
 
@@ -52,18 +52,18 @@
     @media (min-width: $desktop-width) {
         /* Código para escritorio */
         .about_me{
-            padding: 4rem 2.5rem;
+            padding: 1.5rem;
         }
         .about_me > div:not(:last-child){
-            margin-bottom: 1.75rem;
+            margin-bottom: 1.25rem;
         }
         .about_me > div > .title{
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
         .about_me > div > .list > li > h4{
-            font-size: 1.125rem;
+            font-size: 1rem;
         }
         .about_me > div > p,li ,.about_me > div > .list > li > p{
-            font-size: 1.125rem;
+            font-size: .9rem;
         }
     }
