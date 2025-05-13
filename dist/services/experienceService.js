@@ -4,14 +4,16 @@ class ExperienceService {
             {
                 id: 1,
                 position: 'Desarrollador Software & Full Stack',
-                company: 'Grupo Dabe S.A. de C.V.',
+                company: 'Industrias Dabe S.A. de C.V.',
                 location: 'Monterrey, N.L., México',
                 startDate: new Date('2022-04-01'),
                 endDate: new Date('2023-08-01'),
                 responsabilities: [
-                    { description: 'Creación de páginas web y gestión de e-commerce' },
-                    { description: 'Creación de aplicaciones para extender funciones del ERP Aspel SAE & PROD' },
-                    { description: 'Creación de reportes de finanzas e inventarios mediante consultas' },
+                    { description: 'Automatización de reportes financieros e inventarios mediante consultas SQL' },
+                    { description: 'Apoyo en inventarios físicos, registros de productos y movimientos de almacén' },
+                    { description: 'Recolección y armado de pedidos, así como carga de mercancía para distribución' },
+                    { description: 'Extensión de funciones del ERP Aspel SAE & PROD con aplicaciones software personalizadas' },
+                    { description: 'Desarrollo de plataformas web y gestion de e-commerce con Woocommerce y modificación de plugins' },
                 ],
             },
             {
@@ -22,9 +24,9 @@ class ExperienceService {
                 startDate: new Date('2020-04-01'),
                 endDate: new Date('2022-04-01'),
                 responsabilities: [
-                    { description: 'Creación de aplicaciones de escritorio y automatización para mejora de procesos internos' },
-                    { description: 'Ampliación y automatización de funciones del ERP Aspel SAE & PROD' },
-                    { description: 'Desarrollo y consumo de APIs RESTful en formato JSON' },
+                    { description: 'Integración y personalización de funciones del ERP Aspel SAE & PROD mediante aplicaciones de escritorio' },
+                    { description: 'Consumo y desarrollo de APIs RESTful en formato JSON, para interoperabilidad entre sistemas internos y externos' },
+                    { description: 'Soporte técnico a soluciones implementadas y atención directa a clientes para identificar necesidades, dar seguimiento y adaptar funcionalidades' },
                 ],
             },
             {
@@ -35,8 +37,8 @@ class ExperienceService {
                 startDate: new Date('2019-06-01'),
                 endDate: new Date('2019-09-01'),
                 responsabilities: [
-                    { description: 'Mantenimiento de páginas web para equipos locales de baloncesto' },
-                    { description: 'Consumo e implementación de APIs' },
+                    { description: 'Consumo de APIs RESTful para mostrar estadísticas deportivas en tiempo real' },
+                    { description: 'Colaboré en la actualización de sitios web usnado componentes reutilizables en JavaScript y SCSS' },
                 ],
             },
         ];
