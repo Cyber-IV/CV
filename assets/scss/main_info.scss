@@ -6,9 +6,12 @@ $main_titles-font-size: $font-size * 1.5;
 
 $mi_padding: 1.5rem;
 
-.main_info, .main_info a{
+.main_info {
     display: block;
     background-color: $main_background-color;
+    color: $main_font-color;
+}
+.main_info a {
     color: $main_font-color;
 }
 .details p, .socials p {
