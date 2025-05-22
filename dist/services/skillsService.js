@@ -8,8 +8,8 @@ class SkillService {
             { id: 5, name: 'C#', percentaje: 60, image: '../assets/img/c-sharp.png' },
             { id: 6, name: 'MySQL', percentaje: 70, image: '../assets/img/mysql.png' },
             /*  { id: 7, name: 'Ibexpert', percentaje: 75, image: '../assets/img/' },*/
-            { id: 8, name: 'Aspel SAE', percentaje: 70, image: '../assets/img/skill-placeholder.png' },
-            { id: 9, name: 'Aspel PROD', percentaje: 50, image: '../assets/img/skill-placeholder.png' },
+            { id: 8, name: 'Aspel SAE', percentaje: 70, image: '../assets/img/sae.png' },
+            { id: 9, name: 'Aspel PROD', percentaje: 50, image: '../assets/img/prod.png' },
         ];
     }
     getSkills() {
